@@ -1,11 +1,13 @@
+import InputBlock from '@/src/component/inputs/InputBlock'
+import TextareaBlock from '@/src/component/inputs/TextareaBlock'
+
 const HomeUploadForm = () => {
     return (
         <>
-            <div className={'mt-[60px]'}>
-                <label className={'flex justify-center'}>
-                    <p className={'mr-[10px]'}>Title :</p>
-                    <input className={'border-b-[2px] w-[300px] '} />
-                </label>
+            <div className={'mt-[60px] w-[320px] mx-auto'}>
+                <InputBlock placeholder={'Title'} />
+                <InputBlock placeholder={'Date'} className={'mt-[24px]'} />
+                <TextareaBlock placeholder={'Description'} className={'mt-[32px]'} />
             </div>
         </>
     )
