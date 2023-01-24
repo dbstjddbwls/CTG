@@ -27,7 +27,7 @@ const InputBlock: React.FC<Iprops> = ({className, placeholder}) => {
                 ref={TextareaRef}
                 placeholder={`${placeholder}`}
                 onBlur={e => checkTextareaValue(e.target)}
-                className={`w-full min-h-[150px] p-[10px] resize-none text-[14px] border rounded-[5px] : +
+                className={`w-full min-h-[100px] p-[10px] resize-none text-[14px] border rounded-[5px] : +
                     ${isValue ? 'border-[#4bdca3]' : 'border-[#c9c9c9]'}`}
             />
         </div>
