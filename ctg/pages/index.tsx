@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Hi</title>
+                <title>2023 올해의 밈</title>
             </Head>
             <HomeLayout>
                 <HomeTitle />

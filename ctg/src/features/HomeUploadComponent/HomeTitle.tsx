@@ -1,7 +1,7 @@
 const HomeTitle = () => {
     return (
         <>
-            <div className={'text-[32px] text-center font-bold'}>2023년 올해의 밈</div>
+            <div className={'text-[32px] text-main text-center font-bold'}>2023년 올해의 밈</div>
         </>
     )
 }

@@ -28,7 +28,7 @@ const InputBlock: React.FC<Iprops> = ({className, placeholder}) => {
                     ref={inputRef}
                     placeholder={`${placeholder}`}
                     className={`border-b-[2px] text-[16px] w-full px-[10px] py-[5px] ${
-                        isValue ? 'border-[#4bdca3]' : 'border-[#c9c9c9]'
+                        isValue ? 'border-main' : 'border-[#c9c9c9]'
                     }`}
                     onBlur={e => checkInputValue(e.target)}
                 />
